@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 
 
-mongoose.connect('mongodb://localhost/my-blog',{ useNewUrlParser: true});
+mongoose.connect('mongodb://test:tester1@ds139956.mlab.com:39956/heroku_53ft6v4n',{ useNewUrlParser: true});
 mongoose.set('useFindAndModify', false);
 mongoose.Promise = Promise;
 
